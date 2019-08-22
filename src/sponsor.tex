@@ -1,108 +1,219 @@
 \documentclass{article}
 
 \usepackage[margin=1in]{geometry}
-\usepackage[dvipsnames]{xcolor}
+\usepackage[dvipsnames]{xcolor,colortbl}
 \usepackage{graphicx}
 \usepackage{wrapfig}
 \usepackage{setspace}
 \usepackage{tabularx}
-\newcolumntype{b}{>{\hsize=2\hsize\raggedleft\arraybackslash}X}
-\newcolumntype{m}{>{\hsize=0.9\hsize\centering\arraybackslash}X}
-\newcolumntype{s}{>{\hsize=0.7\hsize\centering\arraybackslash}X}
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{}
-\renewcommand{\headrulewidth}{0pt}
-\fancyfoot[C]{\textcolor{white}{\thepage}}
-\definecolor{BgColour}{HTML}{2f3c63}
-\pagecolor{BgColour}
-\color{white}
+\usepackage{sectsty}
+\usepackage{hhline}
+\usepackage{multicol}
+\usepackage{hyperref}
+\definecolor{bronze}{rgb}{0.9, 0.7, 0.3}
+\definecolor{silver}{rgb}{0.85, 0.85, 0.85}
+\definecolor{gold}{rgb}{1.0, 0.84, 0.0}
+\definecolor{cssblue}{HTML}{2f3c63}
+\newcolumntype{b}{>{\hsize=1.75\hsize\raggedright\arraybackslash}X}
+\newcolumntype{s}{>{\hsize=0.75\hsize\centering\arraybackslash}X}
+\newcolumntype{x}{>{\hsize=0.75\hsize\centering\arraybackslash\columncolor{bronze}}X}
+\newcolumntype{y}{>{\hsize=0.75\hsize\centering\arraybackslash\columncolor{silver}}X}
+\newcolumntype{z}{>{\hsize=0.75\hsize\centering\arraybackslash\columncolor{gold}}X}
 \onehalfspacing
-
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cssblue,
+}
+\urlstyle{same}
+\usepackage{fontawesome}
 \usepackage[sfdefault]{noto}
 \newfontfamily\DejaSans{DejaVu Sans}
+\sectionfont{\fontsize{24}{32}\selectfont}
+\subsectionfont{\fontsize{16}{24}\selectfont}
+\subsubsectionfont{\fontsize{14}{18}\selectfont}
+\normalfont{\fontsize{13}{18}\selectfont}
 
 \begin{document}
 
-\begin{wrapfigure}{l}{0.3\textwidth}
-    \vspace*{-1cm}
-    \centering
-    \includegraphics[width=0.3\textwidth]{CSS_Logo}
-\end{wrapfigure}
+\begin{figure}
+  \includegraphics[width=0.4\textwidth]{CSS_Logo}
+\end{figure}
 
-\vspace*{1cm}
+\vspace*{0.1cm}
 
-\Huge
+\fontsize{56}{50}\selectfont
 
-\noindent \hspace{0.5cm}\textbf{Sponsorship Proposal}
+\noindent\textbf{SPONSORSHIP}
 
 \par
 
-\noindent \hspace{0.5cm}\textbf{2019/20}
+\noindent\textbf{PROPOSAL}
 
-\vspace{1.5cm}
+\par
 
-\fontsize{11}{14}\selectfont
+\noindent\textbf{2019/20}
 
-Computer Science Society (CSS) is the departmental society for Computer
-Science at the University of Birmingham. With over 180 members and a
-range of initiatives, we work closely with the School of Computer
-Science, our sponsors and the local and wider tech communities to
-provide our members with experience and skills that will be invaluable
-to them in their careers.\medskip
+\fontsize{13}{18}\selectfont
 
-\noindent Some of the events and initiatives we run (or help to run) for our
-members are:\medskip
+\vspace{0.5cm}
 
-\begin{itemize}
-\item
-  \textbf{HackTheMidlands}, a 24-hour hackathon open not only to
-  students but to anyone interested (aged 14+) with around 150 attendees
-  last time.
-\item
-  \textbf{The Women in Technology Conference}, hosted alongside WISE
-  (Women in Science and Engineering) and oSTEM (Out in Science,
-  Technology, Engineering and Maths) - a day-long conference focussed on
-  empowering and equipping women in technology, to provide confidence
-  and combat the gender imbalance in the field.
-\item
-  \textbf{CSS Hardware Lab} - State of the art technology that we use to
-  provide our members with hands-on experience of bleeding-edge
-  technology such as Virtual Reality. Not only do we use the Hardware
-  Lab for our members, we also use it to give back to the tech community
-  by providing in-kind sponsorship for events such as hackathons, to
-  enrich the experiences of attendees across the country.\medskip
-\end{itemize}
+\noindent Computer Science Society @ The University of Birmingham 
 
-As well as these, we run a variety of social and tech events across the
-academic year, including (but not limited to), seminars, talks,
-workshops, hackathon/conference trips, LAN parties, games nights and
-much more.\medskip
+\noindent 2019-2020
 
-We would love to work with you in the coming year to deliver
-this, and none of this would be possible without you! So if you're
-interested in working with us to provide skills, insight, experience and
-confidence to our members (and more!), let us know! On the following
-page are the sponsorship tiers that we are offering this year.
+\vspace{1cm}
+
+\section*{About us}
+
+CSS (Computer Science Society) is one of the largest departmental societies at the University of Birmingham.
+We provide a wide range of regular social events  for Computer Science students, such as movie nights, quizzes, LAN parties, annual CSS ball and summer BBQ.
+Additionally, we use the strong links established within the tech community to prepare our members for the world outside university.
+Our goal is to enhance employability of our members by organising relevant tech talks, hackathons, career advice sessions and various employer-led events.
 
 \newpage
 
+\section*{Sponsorship benefits}
+
+Why should your company sponsor our society?
+Even though there are numerous benefits gained from this partnership, we have summarised the top 5 in the list below.
+
+\subsection*{5. Great student engagement rates}
+
+CSS is one of the largest departmental societies in the Engineering and Physical Sciences (EPS) college. In 2017-2018, we reached a total of 224 members. As the end goal for this year, we plan to raise even more awareness of the opportunities offered by the society.
+Furthermore, the attendance rate of our events has grown over the years, as we started to target all available social media channels and make use of our strong bond with the School board. 
+The annual CSS ball had more than 90 members attending, while the CSS BBQ reached a turnout of 80 members in 2016-2017.  The new EPS-award nominated Tech Talk series saw packed rooms throughout the year - almost 80 students attended the event!
+
+\subsection*{4. Showcase cutting-edge technology}
+
+You will have the chance to demonstrate any technologies that your company uses by sponsoring tech talks, hackathons or other type of competitions. Additionally, the CSS hardware lab can be used throughout the events! 
+This means that you can engage with the UoB tech community in a fun and creative way, while showcasing tech capabilities of the company.
+
+\subsection*{3. Opportunity to recruit top individuals}
+
+UoB’s School of Computer Science is one of the top 15 departments in the UK. 
+This means our members are amongst the brightest STEM students in the country - as a CSS sponsor, you will thus have the opportunity of promoting company recruitment schemes to highly skilled individuals.
+Previously, numerous students have applied and successfully gained positions in summer programmes or graduate schemes run by companies who have engaged with them throughout the year. 
+
+\subsection*{2. Promote your company to a diverse group of students}
+
+Diversity is key in any company that wants to keep a competitive edge in the tech industry. As a society, CSS massively encourages this initiative - our efforts include adding a Diversity Representative position as part of our committee in 2016. 
+Furthermore, our members form a truly diverse group - from several nationalities (Indian, Chinese, Japanese, Romanian, Bulgarian, Lithuanian and many more) to four different year groups and reaching over 40 female members out of a total of 224 last year! 
+
+\subsection*{1. Most importantly… sponsor an award-winning society!}
+
+Our hard work has been recognised through distinguished EPS awards for several years, thus rewarding our commitment and passion for offering CSS members a unique university experience. 
+You will be sponsoring a society that has ultimately brought the feeling of ‘belonging to a family’ in the Computer Science department.
+A society that actively works towards improving and growing each year through diversifying events and bringing in opportunities that benefit both our members and the local tech community.
+
+\subsubsection*{Awards}
+
+\noindent Our efforts have been recognised through the awards mentioned below:
+
+\begin{itemize}
+  \item Society of the Year, 2016-2017
+  \item Outstanding Event Award for Hack The Midlands, 2017
+  \item Outstanding Event Award for Women In Technology Conference (joint award with WISE, the Women In Science \& Engineering society), 2017
+  \item Inspirational Committee Member for Jack Wearden, CSS President in 2015-2016.
+\end{itemize}
+
+\medskip
+
+\noindent We have also been shortlisted for the following awards:
+\begin{itemize}
+  \item Committee Member for Tom Goodman, CSS President in 2016-2017
+  \item Industrial Award for Tom Goodman, CSS President in 2016-2017
+  \item The Great Achievement in EPS Award for Tom Goodman, CSS President in 2016-2017
+  \item Outreach Award for CSS, 2017.
+\end{itemize}
+
+\newpage
+
+\section*{Sponsorship Tiers}
+
+\fontsize{11}{12}\selectfont
+
 \renewcommand{\arraystretch}{2}
-\begin{tabularx}{\textwidth}{ b  s  s  s  m }
-    & Bronze (£750) & Silver (£1500) & Gold (£2500) & Exclusive Partner\linebreak(£Negotiable) \\
-    Logo on all society promotional material & {\DejaSans ✔} & {\DejaSans ✔}& {\DejaSans ✔}& {\DejaSans ✔}\\
-    Mail shot(s) (Monthly Digest) per month & 0 & 1 & 2 & 3 \\
-    Mail shot(s) (immediate) per month & 0 & 0 & 1 & 2 \\
-    Society-wide promotion of company schemes \& initiatives (eg. internships, placements) & & {\DejaSans ✔}& {\DejaSans ✔}& {\DejaSans ✔}\\
-    Company-hosted events across the year & & {\DejaSans ✔}& {\DejaSans ✔}& {\DejaSans ✔}\\
-    Right of first-refusal to the sponsorship tier the following year & & & & {\DejaSans ✔}\\
-    Ability to display company banner alongside society banner (eg. in School of Computer Science) & & & {\DejaSans ✔}& {\DejaSans ✔}\\
-    Distribution of promotional material & & & {\DejaSans ✔}& {\DejaSans ✔}\\
-    Further negotiable benefits & & & & {\DejaSans ✔}\\
+\begin{tabularx}{\textwidth}{| b | x | y | z |}
+    \hhline{~|-|-|-|}
+    \multicolumn{1}{c|}{} & Bronze (£500) & Silver (£1000) & Gold (£1500) \\
+    \hline
+    Logo on all CSS promotional material (exc. stickers) & {\DejaSans ✔} & {\DejaSans ✔}& {\DejaSans ✔}\\
+    \hline
+    Mail shot(s) in our monthly newsletter & 0 & 3 per yr & 12 per yr \\
+    \hline
+    Immediate mail shot(s) per month & 0 & 0 & 1 \\
+    \hline
+    Promotion of company schemes (e.g. internships, placements) on CSS Instagram & - & {\DejaSans ✔}& {\DejaSans ✔}\\
+    \hline
+    Promotion of company schemes (e.g. internships, placements) in the CSS Facebook Group & 1 scheme & {\DejaSans ✔}& {\DejaSans ✔}\\
+    \hline
+    Company-hosted events throughout the year & 0 & 1 & Multiple \\
+    \hline
 \end{tabularx}
 
 \vspace{1cm}
 
 NB: All sponsorship packages are negotiable within reason.
+
+\vspace{0.5cm}
+
+\setlength{\columnsep}{1cm}
+\begin{multicols}{2}
+
+\noindent Promotional materials:
+\medskip
+\begin{itemize}
+  \item Banners, displayed in the Computer Science Atrium at all times and showcased in events such as hackathons, tech talks, quizzes, Women In Tech conference;
+  \item T-shirts, offered for free to all CSS members;
+  \item Hoodies, released for sale mid-year. 
+\end{itemize}
+
+\vfill\null
+\columnbreak
+
+\noindent Previous events hosted by companies:
+\medskip
+\begin{itemize}
+  \item Arm talk on security, followed by networking event;
+  \item Google DeepMind neural networks talk;
+  \item BAE Capture the Flag and BT Capture the Flag;
+  \item Nationwide talk on security;
+  \item Futureboard pub quiz;
+  \item Capgemini talk on Microservices architecture.
+\end{itemize}
+
+\end{multicols}
+
+\fontsize{13}{14}\selectfont
+
+\section*{Contact Us}
+
+For more information regarding sponsorship opportunities and other events, 
+please contact one of the core committee members listed below.
+
+\subsection*{Cristian Calauz - President}
+
+\faLinkedin \hspace{0.1cm} \url{https://www.linkedin.com/in/cristiancalauz/} \\
+\faEnvelope \hspace{0.1cm} \href{mailto:cxc880@student.bham.ac.uk}{cxc880@student.bham.ac.uk}
+
+\subsection*{Tom Goodman - Secretary}
+
+\faLinkedin \hspace{0.1cm} \url{https://www.linkedin.com/in/tagoodman/} \\
+\faEnvelope \hspace{0.1cm} \href{mailto:t.a.goodman@bham.ac.uk}{t.a.goodman@bham.ac.uk}
+
+\subsection*{Justin Chadwell - Vice President}
+
+\faLinkedin \hspace{0.1cm} \url{https://www.linkedin.com/in/jedevc/} \\
+\faEnvelope \hspace{0.1cm} \href{mailto:jxc1169@student.bham.ac.uk}{jxc1169@student.bham.ac.uk}
+
+\vspace{1cm}
+
+\noindent You can also follow our activity on social media:
+
+\noindent \faTwitter  \hspace{0.1cm} \href{https://twitter.com/cssbham}{@CSSbham} \\
+\faInstagram  \hspace{0.1cm} \href{https://facebook.com/groups/CSSUoB/}{@CSSUoB} \\
+\faFacebook  \hspace{0.3cm} \url{https://www.facebook.com/CSSBham/}
 
 \end{document}
